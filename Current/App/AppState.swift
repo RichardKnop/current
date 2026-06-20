@@ -6,18 +6,24 @@ final class AppState {
     let database: AppDatabase
     let projectStore: ProjectStore
     let settingsStore: SettingsStore
+    let providerConfigStore: ProviderConfigStore
     let projectListModel: ProjectListModel
+    let settingsModel: SettingsModel
 
     init() {
         do {
             let db = try AppDatabase.openShared()
             let projectStore = ProjectStore(db: db)
             let service = ProjectService()
+            let providerConfigStore = ProviderConfigStore(db: db)
+            let keychain = KeychainService()
 
             self.database = db
             self.projectStore = projectStore
             self.settingsStore = SettingsStore(db: db)
+            self.providerConfigStore = providerConfigStore
             self.projectListModel = ProjectListModel(store: projectStore, service: service)
+            self.settingsModel = SettingsModel(configStore: providerConfigStore, keychain: keychain)
 
             Self.resolveBookmarks(store: projectStore, service: service)
         } catch {

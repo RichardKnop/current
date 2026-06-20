@@ -8,6 +8,8 @@ struct CurrentApp: App {
         WindowGroup {
             ContentView()
                 .environment(appState)
+                .environment(appState.projectListModel)
+                .environment(appState.settingsModel)
         }
         .windowStyle(.titleBar)
         .defaultSize(width: 1100, height: 700)
@@ -15,6 +17,7 @@ struct CurrentApp: App {
         Settings {
             SettingsView()
                 .environment(appState)
+                .environment(appState.settingsModel)
         }
     }
 }

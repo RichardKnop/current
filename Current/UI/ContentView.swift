@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(AppState.self) private var appState
+    @Environment(ProjectListModel.self) private var projectListModel
     @State private var sidebarSelection: SidebarDestination? = .projects
     @State private var selectedProject: ProjectRecord?
 
@@ -28,7 +28,7 @@ struct ContentView: View {
             }
         }
         .onAppear {
-            appState.projectListModel.load()
+            projectListModel.load()
         }
     }
 }

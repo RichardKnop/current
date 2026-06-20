@@ -10,7 +10,9 @@
 		03B977FAF32AEF20518B7DA6 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB89BD16188CB395C1D5B94 /* SidebarView.swift */; };
 		0B9B51EDC18F06B69B38BD32 /* 001_initial.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED9FFB1E7CA460902F77490 /* 001_initial.swift */; };
 		26E4D5BB9743988FA80FD6C1 /* SidebarDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD379B8FFA2E1186F732920D /* SidebarDestination.swift */; };
+		2C1192505722A69DEC39E0EC /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB64438FEF709E7D92B3E7BB /* KeychainService.swift */; };
 		3AF289CE2F7DE3576034FF9A /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DF2AB58C9D4EC3C57FAB3 /* LibraryView.swift */; };
+		41C69D3291C4CBC054601AE8 /* ProviderConfigRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D162DDBA4BE63BFBAC5D6965 /* ProviderConfigRecord.swift */; };
 		44E6B235671829CF0AF867EC /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = BE9AAF9FA1616812077458CC /* GRDB */; };
 		482EA73D5CAE1B642573870D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A043E71F939C42C10E84CA55 /* SettingsView.swift */; };
 		68063062E1B0D9F162060A2F /* CurrentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007829A7D5AF1A79F181387 /* CurrentApp.swift */; };
@@ -21,7 +23,9 @@
 		BFB18E6B8BC0A3761E320586 /* PromptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6252AC02B61E8712AFC50 /* PromptsView.swift */; };
 		CFB77435EC513377654B097F /* ProjectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29C512E94EEDEE3E012FE /* ProjectService.swift */; };
 		D83550669E7FE350E4AB3434 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A9D68D1B5DD861C0CF9D5 /* ProjectsView.swift */; };
+		D9FA3A5A1E32AA1CF0ADAC9C /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5093A15684AFFB46728B1 /* SettingsModel.swift */; };
 		E0F05F1172A5B7E3B45CC29E /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C823F0D9E9D628A6EA20C /* ProjectDetailView.swift */; };
+		ECE17C8A8575C95B074A805B /* ProviderConfigStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B68D11B9EEFE5B80D247CB /* ProviderConfigStore.swift */; };
 		ED21BD2D6F360C212A7B5A96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221B91A24B9D4D6B464C907 /* ContentView.swift */; };
 		F189CFF66130FB7E65871E67 /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C273FF4F66DA92E2611634 /* AppDatabase.swift */; };
 		F70531E272B4BF52C6DFC5D8 /* ProjectRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00BEBDBF4586B102D6C7E2 /* ProjectRowView.swift */; };
@@ -30,11 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08B68D11B9EEFE5B80D247CB /* ProviderConfigStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderConfigStore.swift; sourceTree = "<group>"; };
 		0F00BEBDBF4586B102D6C7E2 /* ProjectRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRowView.swift; sourceTree = "<group>"; };
 		1007829A7D5AF1A79F181387 /* CurrentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentApp.swift; sourceTree = "<group>"; };
 		1E7C823F0D9E9D628A6EA20C /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
 		266A9D68D1B5DD861C0CF9D5 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		28C273FF4F66DA92E2611634 /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
+		37D5093A15684AFFB46728B1 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 		47B1A3F6A1D722315E6B140A /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		518DF2AB58C9D4EC3C57FAB3 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		54E29C512E94EEDEE3E012FE /* ProjectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectService.swift; sourceTree = "<group>"; };
@@ -46,7 +52,9 @@
 		A221B91A24B9D4D6B464C907 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADF6252AC02B61E8712AFC50 /* PromptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptsView.swift; sourceTree = "<group>"; };
 		B03C851DDA94EB0F0BE94E49 /* ProjectListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListModel.swift; sourceTree = "<group>"; };
+		BB64438FEF709E7D92B3E7BB /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		BFB89BD16188CB395C1D5B94 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		D162DDBA4BE63BFBAC5D6965 /* ProviderConfigRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderConfigRecord.swift; sourceTree = "<group>"; };
 		DBB7ED44759D95111CFA1943 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		DD379B8FFA2E1186F732920D /* SidebarDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarDestination.swift; sourceTree = "<group>"; };
 		DED9FFB1E7CA460902F77490 /* 001_initial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 001_initial.swift; sourceTree = "<group>"; };
@@ -99,12 +107,22 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
+		1472A373AF30244724706F45 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BB64438FEF709E7D92B3E7BB /* KeychainService.swift */,
+				37D5093A15684AFFB46728B1 /* SettingsModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		5A7C5D21457BD07FBED73206 /* Current */ = {
 			isa = PBXGroup;
 			children = (
 				C45D18AD7B9550DD19F11992 /* App */,
 				9E85406B210BB1B65BE8D454 /* Models */,
 				5EA65CAACE685927F70DAC6B /* Services */,
+				1472A373AF30244724706F45 /* Settings */,
 				6A5BE264FDDE0CEF01ACE483 /* Stores */,
 				5B8244C57CC4FB49F41E0704 /* UI */,
 			);
@@ -137,6 +155,7 @@
 			children = (
 				28C273FF4F66DA92E2611634 /* AppDatabase.swift */,
 				60CE2D9592B2693C1F11F09C /* ProjectStore.swift */,
+				08B68D11B9EEFE5B80D247CB /* ProviderConfigStore.swift */,
 				5FFBD0CC7D144F6D74D797B6 /* SettingsStore.swift */,
 				C6D4A4113990A462C91BAD0F /* Migrations */,
 			);
@@ -156,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				9A38660EF25F7B43DF82E4D3 /* ProjectRecord.swift */,
+				D162DDBA4BE63BFBAC5D6965 /* ProviderConfigRecord.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -258,6 +278,7 @@
 				F8D43001594683F5044BAA07 /* AppState.swift in Sources */,
 				ED21BD2D6F360C212A7B5A96 /* ContentView.swift in Sources */,
 				68063062E1B0D9F162060A2F /* CurrentApp.swift in Sources */,
+				2C1192505722A69DEC39E0EC /* KeychainService.swift in Sources */,
 				3AF289CE2F7DE3576034FF9A /* LibraryView.swift in Sources */,
 				E0F05F1172A5B7E3B45CC29E /* ProjectDetailView.swift in Sources */,
 				A4CFE0CA30C68E2023E69278 /* ProjectListModel.swift in Sources */,
@@ -267,6 +288,9 @@
 				B471541B42BB1D0ABB65F015 /* ProjectStore.swift in Sources */,
 				D83550669E7FE350E4AB3434 /* ProjectsView.swift in Sources */,
 				BFB18E6B8BC0A3761E320586 /* PromptsView.swift in Sources */,
+				41C69D3291C4CBC054601AE8 /* ProviderConfigRecord.swift in Sources */,
+				ECE17C8A8575C95B074A805B /* ProviderConfigStore.swift in Sources */,
+				D9FA3A5A1E32AA1CF0ADAC9C /* SettingsModel.swift in Sources */,
 				B4E162ADFC968C37A7118BC2 /* SettingsStore.swift in Sources */,
 				482EA73D5CAE1B642573870D /* SettingsView.swift in Sources */,
 				26E4D5BB9743988FA80FD6C1 /* SidebarDestination.swift in Sources */,

@@ -1,10 +1,8 @@
 import SwiftUI
 
 struct ProjectsView: View {
-    @Environment(AppState.self) private var appState
+    @Environment(ProjectListModel.self) private var model
     @Binding var selectedProject: ProjectRecord?
-
-    private var model: ProjectListModel { appState.projectListModel }
 
     var body: some View {
         Group {

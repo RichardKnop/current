@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ProjectRowView: View {
-    @Environment(AppState.self) private var appState
+    @Environment(ProjectListModel.self) private var model
     let project: ProjectRecord
 
     var body: some View {
@@ -23,7 +23,7 @@ struct ProjectRowView: View {
         .padding(.vertical, 2)
         .contextMenu {
             Button("Remove from App", role: .destructive) {
-                appState.projectListModel.delete(project)
+                model.delete(project)
             }
         }
     }

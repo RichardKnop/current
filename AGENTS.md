@@ -143,7 +143,7 @@ Update the status column as phases are completed. Do not skip phases or start a 
 | 1 | Native macOS app skeleton | **complete** |
 | 2 | SQLite persistence | **complete** |
 | 3 | Project CRUD | **complete** |
-| 4 | Settings page | not started |
+| 4 | Settings page | **in progress** |
 | 5 | Global document library | not started |
 | 6 | Prompt library | not started |
 | 7 | Chat shell (no providers) | not started |
