@@ -10,7 +10,9 @@ final class ProjectStore {
 
     func fetchAll() throws -> [ProjectRecord] {
         try db.dbQueue.read { db in
-            try ProjectRecord.fetchAll(db)
+            try ProjectRecord
+                .order(Column("last_opened_at").desc, Column("created_at").desc)
+                .fetchAll(db)
         }
     }
 

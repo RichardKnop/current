@@ -141,8 +141,8 @@ Update the status column as phases are completed. Do not skip phases or start a 
 |---|---|---|
 | 0 | Planning artifacts | **complete** |
 | 1 | Native macOS app skeleton | **complete** |
-| 2 | SQLite persistence | **in progress** |
-| 3 | Project CRUD | not started |
+| 2 | SQLite persistence | **complete** |
+| 3 | Project CRUD | **complete** |
 | 4 | Settings page | not started |
 | 5 | Global document library | not started |
 | 6 | Prompt library | not started |

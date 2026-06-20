@@ -15,22 +15,29 @@
 		482EA73D5CAE1B642573870D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A043E71F939C42C10E84CA55 /* SettingsView.swift */; };
 		68063062E1B0D9F162060A2F /* CurrentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1007829A7D5AF1A79F181387 /* CurrentApp.swift */; };
 		9F078762A0BC08BD7F9472FF /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B1A3F6A1D722315E6B140A /* AppInfo.swift */; };
+		A4CFE0CA30C68E2023E69278 /* ProjectListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03C851DDA94EB0F0BE94E49 /* ProjectListModel.swift */; };
 		B471541B42BB1D0ABB65F015 /* ProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE2D9592B2693C1F11F09C /* ProjectStore.swift */; };
 		B4E162ADFC968C37A7118BC2 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBD0CC7D144F6D74D797B6 /* SettingsStore.swift */; };
 		BFB18E6B8BC0A3761E320586 /* PromptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6252AC02B61E8712AFC50 /* PromptsView.swift */; };
+		CFB77435EC513377654B097F /* ProjectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E29C512E94EEDEE3E012FE /* ProjectService.swift */; };
 		D83550669E7FE350E4AB3434 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A9D68D1B5DD861C0CF9D5 /* ProjectsView.swift */; };
+		E0F05F1172A5B7E3B45CC29E /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C823F0D9E9D628A6EA20C /* ProjectDetailView.swift */; };
 		ED21BD2D6F360C212A7B5A96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221B91A24B9D4D6B464C907 /* ContentView.swift */; };
 		F189CFF66130FB7E65871E67 /* AppDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C273FF4F66DA92E2611634 /* AppDatabase.swift */; };
+		F70531E272B4BF52C6DFC5D8 /* ProjectRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F00BEBDBF4586B102D6C7E2 /* ProjectRowView.swift */; };
 		F8D43001594683F5044BAA07 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB7ED44759D95111CFA1943 /* AppState.swift */; };
 		F9A6C30265E1FA45D3CC2098 /* ProjectRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A38660EF25F7B43DF82E4D3 /* ProjectRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F00BEBDBF4586B102D6C7E2 /* ProjectRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRowView.swift; sourceTree = "<group>"; };
 		1007829A7D5AF1A79F181387 /* CurrentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentApp.swift; sourceTree = "<group>"; };
+		1E7C823F0D9E9D628A6EA20C /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
 		266A9D68D1B5DD861C0CF9D5 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		28C273FF4F66DA92E2611634 /* AppDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabase.swift; sourceTree = "<group>"; };
 		47B1A3F6A1D722315E6B140A /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		518DF2AB58C9D4EC3C57FAB3 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		54E29C512E94EEDEE3E012FE /* ProjectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectService.swift; sourceTree = "<group>"; };
 		5FFBD0CC7D144F6D74D797B6 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
 		60CE2D9592B2693C1F11F09C /* ProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectStore.swift; sourceTree = "<group>"; };
 		9A38660EF25F7B43DF82E4D3 /* ProjectRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRecord.swift; sourceTree = "<group>"; };
@@ -38,6 +45,7 @@
 		A043E71F939C42C10E84CA55 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A221B91A24B9D4D6B464C907 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADF6252AC02B61E8712AFC50 /* PromptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptsView.swift; sourceTree = "<group>"; };
+		B03C851DDA94EB0F0BE94E49 /* ProjectListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListModel.swift; sourceTree = "<group>"; };
 		BFB89BD16188CB395C1D5B94 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		DBB7ED44759D95111CFA1943 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		DD379B8FFA2E1186F732920D /* SidebarDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarDestination.swift; sourceTree = "<group>"; };
@@ -59,6 +67,9 @@
 		05101B0B58D60611FFCAE410 /* Projects */ = {
 			isa = PBXGroup;
 			children = (
+				1E7C823F0D9E9D628A6EA20C /* ProjectDetailView.swift */,
+				B03C851DDA94EB0F0BE94E49 /* ProjectListModel.swift */,
+				0F00BEBDBF4586B102D6C7E2 /* ProjectRowView.swift */,
 				266A9D68D1B5DD861C0CF9D5 /* ProjectsView.swift */,
 			);
 			path = Projects;
@@ -93,6 +104,7 @@
 			children = (
 				C45D18AD7B9550DD19F11992 /* App */,
 				9E85406B210BB1B65BE8D454 /* Models */,
+				5EA65CAACE685927F70DAC6B /* Services */,
 				6A5BE264FDDE0CEF01ACE483 /* Stores */,
 				5B8244C57CC4FB49F41E0704 /* UI */,
 			);
@@ -110,6 +122,14 @@
 				95D9B6260EC7BEAA54A2F1EE /* Sidebar */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		5EA65CAACE685927F70DAC6B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				54E29C512E94EEDEE3E012FE /* ProjectService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		6A5BE264FDDE0CEF01ACE483 /* Stores */ = {
@@ -203,9 +223,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
+				LastUpgradeCheck = 2650;
 			};
 			buildConfigurationList = 4D8766A2A9A346388AFE5431 /* Build configuration list for PBXProject "Current" */;
 			developmentRegion = en;
@@ -217,7 +235,7 @@
 			mainGroup = 057A08C4C05073381B0FD8B1;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				0C789832094EED72575ECA78 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+				0C789832094EED72575ECA78 /* XCRemoteSwiftPackageReference "GRDB" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FBEE5B9FF865CA9BEA93D634 /* Products */;
@@ -241,7 +259,11 @@
 				ED21BD2D6F360C212A7B5A96 /* ContentView.swift in Sources */,
 				68063062E1B0D9F162060A2F /* CurrentApp.swift in Sources */,
 				3AF289CE2F7DE3576034FF9A /* LibraryView.swift in Sources */,
+				E0F05F1172A5B7E3B45CC29E /* ProjectDetailView.swift in Sources */,
+				A4CFE0CA30C68E2023E69278 /* ProjectListModel.swift in Sources */,
 				F9A6C30265E1FA45D3CC2098 /* ProjectRecord.swift in Sources */,
+				F70531E272B4BF52C6DFC5D8 /* ProjectRowView.swift in Sources */,
+				CFB77435EC513377654B097F /* ProjectService.swift in Sources */,
 				B471541B42BB1D0ABB65F015 /* ProjectStore.swift in Sources */,
 				D83550669E7FE350E4AB3434 /* ProjectsView.swift in Sources */,
 				BFB18E6B8BC0A3761E320586 /* PromptsView.swift in Sources */,
@@ -262,6 +284,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Current/Resources/Current.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Current/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,9 +333,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -333,6 +358,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.10;
@@ -373,9 +399,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -389,6 +417,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.10;
@@ -402,6 +431,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Current/Resources/Current.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Current/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,7 +470,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0C789832094EED72575ECA78 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+		0C789832094EED72575ECA78 /* XCRemoteSwiftPackageReference "GRDB" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/groue/GRDB.swift";
 			requirement = {
@@ -453,7 +483,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		BE9AAF9FA1616812077458CC /* GRDB */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0C789832094EED72575ECA78 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			package = 0C789832094EED72575ECA78 /* XCRemoteSwiftPackageReference "GRDB" */;
 			productName = GRDB;
 		};
 /* End XCSwiftPackageProductDependency section */

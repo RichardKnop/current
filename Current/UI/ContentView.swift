@@ -1,23 +1,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection: SidebarDestination? = .projects
+    @Environment(AppState.self) private var appState
+    @State private var sidebarSelection: SidebarDestination? = .projects
+    @State private var selectedProject: ProjectRecord?
 
     var body: some View {
         NavigationSplitView {
-            SidebarView(selection: $selection)
-        } detail: {
-            switch selection {
+            SidebarView(selection: $sidebarSelection)
+        } content: {
+            switch sidebarSelection {
             case .projects:
-                ProjectsView()
+                ProjectsView(selectedProject: $selectedProject)
             case .library:
                 LibraryView()
             case .prompts:
                 PromptsView()
             case nil:
-                Text("Select an item from the sidebar")
+                EmptyView()
+            }
+        } detail: {
+            if let project = selectedProject {
+                ProjectDetailView(project: project)
+            } else {
+                Text("Select a project")
                     .foregroundStyle(.secondary)
             }
+        }
+        .onAppear {
+            appState.projectListModel.load()
         }
     }
 }

@@ -1,7 +1,7 @@
 import Foundation
 import GRDB
 
-struct ProjectRecord: Codable, FetchableRecord, PersistableRecord {
+struct ProjectRecord: Codable, FetchableRecord, PersistableRecord, Identifiable, Equatable, Hashable {
     static let databaseTableName = "projects"
 
     var id: String
